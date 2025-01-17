@@ -1,0 +1,46 @@
+    .container {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .dice {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    body {
+        background-color: #A4AF69;
+        margin: 0;
+    }
+
+    h1 {
+        margin: 30px;
+        font-size: 4rem;
+        color: #4C2719;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2rem;
+        color: #4C2719;
+        font-family:arial black;
+    }
+
+    .bottom {
+        padding-top: 30px;
+    }
+
+    .butn {
+        background: #4C2719;
+        border-radius: 7px;
+        color: #ffff;
+        font-size: 30px;
+        padding: 16px 25px 16px 25px;
+    }
+
+    .butn:hover {
+        background: #232931;
+        text-decoration: none;
+    }
