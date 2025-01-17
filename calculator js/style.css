@@ -1,0 +1,33 @@
+
+body {
+  background-color: #C47335;
+}
+
+.text-center{
+    text-align: center;
+  }
+  .button{
+    width: 66px;
+    padding: 10px;
+    margin: 0 3px;
+    border: 3px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size:large;
+  }
+  
+  .row{
+    margin: 10px 0;
+  }
+  .row input{
+    width: 291px;
+    font-size: 20px;
+      margin: 0;
+      padding: 10px 0px;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+  .container{
+    height: 70vh;
+    margin-left: 485px;
+  } 
