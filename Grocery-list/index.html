@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Grocery List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+        
+		<h1>Grocery List</h1>
+    </nav>
+	<form action="add" method="get">
+		<label>Add Item: </label> 
+		<input type="text" name="item" class="item">
+		<input id="addNeed" type="submit" value="Need">
+		<input id="addHave" type="submit" value="Have">
+	</form>
+</br></br>
+	<div>
+		<label>Search Item :</label>
+        <input type="text" name="search" class="searchInput" placeholder="Search items">
+        <button id="clearAll">Clear All</button>
+    </div>
+	
+	<h2> Need: </h2>
+		<ul class='list'>
+		</ul>	
+	<h2> Optional: </h2>
+		<ul class='list'>
+		</ul>
+		<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
