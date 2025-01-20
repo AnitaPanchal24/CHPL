@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Item Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon-192.png">
+  </head>
+
+  <body>
+    <nav>
+        <img src="img/icon-192.png">&nbsp&nbsp&nbsp&nbsp
+        <b>My List</b>
+    </nav>
+    <div class="container">
+
+      <input type="text" id="searchInput" placeholder="Search items..." oninput="searchItems()"/>
+    
+      <form id="itemForm">
+        <label>
+          Name of Item:
+          <input type="text" id="nameInput" required>
+        </label>
+
+        <label>
+          Quantity:
+          <input type="number" id="quantityInput" value=1>
+        </label>
+
+        <label>
+          Price:
+          <input type="number" id="priceInput" value=0>
+        </label>
+
+        <button type="submit" id="addItemButton">Add item</button>
+      </form>
+
+      <div id="itemsDiv"></div>
+      <div id="totalPriceDiv"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
